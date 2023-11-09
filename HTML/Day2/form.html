@@ -10,10 +10,11 @@
 
 <body>
     <form method="get">
-        <table border="1px" bgcolor="pink" cellspacing="0px" >
+        <h2 align="center">Employee Details</h2>
+        <table border="1px" bgcolor="pink" cellspacing="0px" align="center">
             <tr>
                 <td><label for="uname">Name</label></td>
-                <td><input type="text" name="uname" id="uname" autofocus placeholder="Enter Name"></td>
+                <td><input type="text" name="uname" id="uname" autofocus placeholder="Enter Name" required></td>
             </tr>
             <tr>
                 <td><label for="empcode"></label>Employee Code</td>
@@ -65,8 +66,17 @@
                     <a href="http://gmail.com">empinfo@patni.com</a>
                 </td>
             </tr>
+            
         </table>
-
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <div align="center">
+        <button type="submit" name="btn" id="register" value="register">
+            Register Me
+         </button>
+         <button type="cancel" name="btn" id="reset" value="reset">
+             Cancel
+          </button>
+        </div>
     </form>
 </body>
 
