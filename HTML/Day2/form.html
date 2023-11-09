@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormDemo</title>
+</head>
+
+<body>
+    <form method="get">
+        <table border="1px" bgcolor="pink" cellspacing="0px" >
+            <tr>
+                <td><label for="uname">Name</label></td>
+                <td><input type="text" name="uname" id="uname" autofocus placeholder="Enter Name"></td>
+            </tr>
+            <tr>
+                <td><label for="empcode"></label>Employee Code</td>
+                <td><input type="text" name="empcode" id="empcode"placeholder="Code" size="10"></td>
+            </tr>
+            <tr>
+                <td><label for="dept">Department</label></td>
+                <td><input type="radio" name="dept" id="ADMIN" value="ADMIN"><label for="ADMIN">ADMIN</label><br>
+                    <input type="radio" name="dept" id="HR" value="HR"><label for="HR">HR</label><br>
+                    <input type="radio" name="dept" id="Technical" value="Technical"><label
+                        for="Technical">Technical</label><br>
+                    <input type="radio" name="dept" id="Accounts" value="Accounts"><label for="HR">Accounts</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DOJ">Date of Joining</label></td>
+                <td><input type="date" name="dt" id="dt"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="5" placeholder="Enter Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="tpa">Training Programs Attended</label></td>
+                <td>
+                    <input type="checkbox" name="tpa" id="HTML" value="HTML"><label
+                        for="HTMl">HTML/DHMTL</label><br>
+                    <input type="checkbox" name="tpa" id="JAVA" value="JAVA"><label for="JAVA">JAVA</label><br>
+                    <input type="checkbox" name="tpa" id="CLIENT" value="CLIENT"><label
+                        for="CLIENT">CLIENT/SERVER</label><br>
+                    <input type="checkbox" name="tpa" id=".NET" value=">.NET"><label for=".NET">.NET</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="programs">Training Programs need to attend</label></td>
+                <td>
+                    <select name="programs" id="programs">
+                        <option value="test">-----Select One-----</option>
+                        <option value="javascript">JAVASCRIPT</option>
+                        <option value="jstruct">JSTRUTS</option>
+                        <option value="java">JAVA</option>
+                        <option value=".NET">.NET</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="info">Send the Information at</label></td>
+                <td>
+                    <a href="http://gmail.com">empinfo@patni.com</a>
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+
+</html>
